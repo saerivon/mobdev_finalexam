@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:final_exam/model/chat_model.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+
+
 class ChatController {
   final supabase = Supabase.instance.client;
 
